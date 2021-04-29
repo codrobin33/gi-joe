@@ -31,12 +31,9 @@ export default function Home() {
                   About us
                 </a>
                 <a href="#" className="py-2 px-6 flex hover:text-blue-500">
-                  Work
-                </a>
-                <a href="#" className="py-2 px-6 flex hover:text-blue-500">
                   Info
                 </a>
-                <a href="#" className="py-2 px-6 flex text-blue-500">
+                <a href="#contact" className="py-2 px-6 flex text-blue-500">
                   Contact us
                 </a>
               </nav>
@@ -160,7 +157,7 @@ export default function Home() {
         </section>
       </div>
 
-      <div className="bg-gray-50">
+      <div className="bg-gray-50" id="contact">
         <div className="container mx-auto px-6 flex flex-col items-center">
 
           <div className="pt-10 pb-20 px-4">
@@ -277,7 +274,7 @@ export default function Home() {
               <div className="flex justify-center sm:justify-end py-10 mt-16 ">
                 <a href="#" className="text-white mx-2">Home</a>
                 <a href="#about" className="text-white mx-2">About Us</a>
-                <a href="#" className="text-white mx-2">Link2</a>
+                <a href="#contact" className="text-white mx-2">Contact</a>
                 <a href="#" className="text-white mx-2">Link3</a>
                 <a href="#" className="text-white mx-2">Link4</a>
               </div>
