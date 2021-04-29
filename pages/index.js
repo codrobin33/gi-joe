@@ -1,7 +1,6 @@
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faEnvelope } from '@fortawesome/free-solid-svg-icons'
 import Head from 'next/head'
-import Image from 'next/image'
 import { faFacebookSquare } from '@fortawesome/free-brands-svg-icons'
 
 export default function Home() {
@@ -61,7 +60,7 @@ export default function Home() {
             <a href="#about" className="font-semibold text-lg bg-blue-500 hover:bg-blue-400 text-white py-3 px-10 rounded-full">Learn more</a>
           </div>
           <div className="sm:w-3/5">
-            <Image src="/cleaning.svg" alt="Cleaning Logo" className="w-full" width="870" height="712" />
+            <img src="/cleaning.svg" alt="Cleaning Logo" className="w-full" width="870" height="712" />
 
           </div>
         </div>
@@ -116,44 +115,44 @@ export default function Home() {
       </div>
 
       <div className="bg-gray-50 pt-20" id="about">
-        <section class="container mx-auto py-10 md:py-20 antialiased ">
-          <section class="grid lg:grid-cols-2 2xl:grid-cols-4 grid-cols-1 gap-8">
-            <article class="bg-white mx-auto max-w-sm pb-8 bg-cover bg-center shadow-2xl rounded-xl">
-              <img class="mx-auto mb-20 mt-10 w-40" src="/spray.png" alt="" />
-              <h2 class="text-center text-3xl mt-8 font-bold min-h-18 px-12">
+        <section className="container mx-auto py-10 md:py-20 antialiased ">
+          <section className="grid lg:grid-cols-2 2xl:grid-cols-4 grid-cols-1 gap-8">
+            <article className="bg-white mx-auto max-w-sm pb-8 bg-cover bg-center shadow-2xl rounded-xl">
+              <img className="mx-auto mb-20 mt-10 w-40" src="/spray.png" alt="" />
+              <h2 className="text-center text-3xl mt-8 font-bold min-h-18 px-12">
                 Clean
               </h2>
-              <p class="m-4 text-lg p-4 leading-relaxed text-center ">
+              <p className="m-4 text-lg p-4 leading-relaxed text-center ">
                 We are ready to take on the challenge of getting your place exactly the way you want it.
               </p>
             </article>
 
-            <article class="bg-white mx-auto max-w-sm pb-8 bg-cover bg-center shadow-2xl rounded-xl">
-              <img class="mx-auto mb-20 mt-10 w-40" src="/safe.png" alt="" />
-              <h2 class="text-center text-3xl mt-8 font-bold min-h-18 px-12">
+            <article className="bg-white mx-auto max-w-sm pb-8 bg-cover bg-center shadow-2xl rounded-xl">
+              <img className="mx-auto mb-20 mt-10 w-40" src="/safe.png" alt="" />
+              <h2 className="text-center text-3xl mt-8 font-bold min-h-18 px-12">
                 Safe
               </h2>
-              <p class="m-4 text-lg p-4 leading-relaxed text-center">
+              <p className="m-4 text-lg p-4 leading-relaxed text-center">
                 We only use the eco friendly chemicals that will get the job done. Let us know if you have any concerns or questions about our products
               </p>
             </article>
 
-            <article class="bg-white mx-auto max-w-sm pb-8 bg-cover bg-center shadow-2xl rounded-xl">
-              <img class="mx-auto mb-20 mt-10 w-40" src="/time.png" alt="" />
-              <h2 class="text-center text-3xl mt-8 font-bold min-h-18 px-12">
+            <article className="bg-white mx-auto max-w-sm pb-8 bg-cover bg-center shadow-2xl rounded-xl">
+              <img className="mx-auto mb-20 mt-10 w-40" src="/time.png" alt="" />
+              <h2 className="text-center text-3xl mt-8 font-bold min-h-18 px-12">
                 Quick
               </h2>
-              <p class="m-4 text-lg p-4 leading-relaxed text-center ">
+              <p className="m-4 text-lg p-4 leading-relaxed text-center ">
                 We price ourselves in our quality but reconize the need for speed. Our quick turnarounds will get your place ready to go in no time.
               </p>
             </article>
 
-            <article class="bg-white mx-auto max-w-sm pb-8 bg-cover bg-center shadow-2xl rounded-xl">
-              <img class="mx-auto mb-20 mt-10 w-40" src="/shiny.png" alt="" />
-              <h2 class="text-center text-3xl mt-8 font-bold min-h-18 px-12">
+            <article className="bg-white mx-auto max-w-sm pb-8 bg-cover bg-center shadow-2xl rounded-xl">
+              <img className="mx-auto mb-20 mt-10 w-40" src="/shiny.png" alt="" />
+              <h2 className="text-center text-3xl mt-8 font-bold min-h-18 px-12">
                 Guaranteed
               </h2>
-              <p class="m-4 text-lg p-4 leading-relaxed text-center ">
+              <p className="m-4 text-lg p-4 leading-relaxed text-center ">
                 Dont like the way it came out? Call us and we can touchup any missed area.
               </p>
             </article>
@@ -164,28 +163,28 @@ export default function Home() {
       <div className="bg-gray-50">
         <div className="container mx-auto px-6 flex flex-col items-center">
 
-          <div class="pt-10 pb-20 px-4">
-            <div class="mx-auto max-w-6xl flex flex-col md:flex-row">
-              <h2 class="mr-8 w-full md:w-1/3 text-4xl font-extrabold leading-9">
+          <div className="pt-10 pb-20 px-4">
+            <div className="mx-auto max-w-6xl flex flex-col md:flex-row">
+              <h2 className="mr-8 w-full md:w-1/3 text-4xl font-extrabold leading-9">
                 Lets get in touch
               </h2>
-              <dl class="w-full md:w-2/3">
-                <dt class="mb-4">
-                  <h3 class="text-3xl font-semibold">
+              <dl className="w-full md:w-2/3">
+                <dt className="mb-4">
+                  <h3 className="text-3xl font-semibold">
                     <a>(816) 508-7384</a>
                   </h3>
                 </dt>
-                <dd class="mb-16">
+                <dd className="mb-16">
                   <p>
                     Contact any business day 9-5
                   </p>
                 </dd>
-                <dt class="mb-4">
-                  <h3 class="text-3xl font-semibold">
+                <dt className="mb-4">
+                  <h3 className="text-3xl font-semibold">
                     <a>gipartykc@gmail.com</a>
                   </h3>
                 </dt>
-                <dd class="mb-16">
+                <dd className="mb-16">
                   <p>
                     We don’t. Valohai isn’t a data science platform; it&#x27;s a Machine Learning Management Platform that handles the whole ML pipeline from feature extraction, to training of your model and to deploying it into production in a reproducible manner. Data science platforms offer hosted notebooks and AutoML solutions.
                 </p>
