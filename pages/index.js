@@ -1,5 +1,5 @@
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faEnvelope } from '@fortawesome/free-solid-svg-icons'
+import { faEnvelope, faPhone } from '@fortawesome/free-solid-svg-icons'
 import Head from 'next/head'
 import { faFacebookSquare } from '@fortawesome/free-brands-svg-icons'
 
@@ -20,7 +20,7 @@ export default function Home() {
         <header className="h-24 sm:h-32 flex items-center">
           <div className="container mx-auto px-6 sm:px-12 flex items-center justify-between">
             <div className="text-black font-black text-2xl flex items-center">
-              <span className="w-6 h-6 rounded-full bg-blue-500 mr-4"></span> GI Party Cleaning and Services
+              <span className="w-6 h-6 rounded-full bg-blue-500 mr-4"></span> GI Party Cleaning
             </div>
             <div className="flex items-center">
               <nav className="text-black text-lg hidden lg:flex items-center">
@@ -56,7 +56,7 @@ export default function Home() {
             </p>
             <a href="#about" className="font-semibold text-lg bg-blue-500 hover:bg-blue-400 text-white py-3 px-10 rounded-full">Learn more</a>
           </div>
-          <div className="sm:w-3/5">
+          <div className="sm:w-3/5 w-full">
             <img src="cleaning.svg" alt="Cleaning Logo" className="w-full" width="870" height="712" />
 
           </div>
@@ -160,30 +160,36 @@ export default function Home() {
       <div className="bg-gray-50" id="contact">
         <div className="container mx-auto px-6 flex flex-col items-center">
 
-          <div className="pt-10 pb-20 px-4">
+          <div className="pt-10 pb-20 px-4 w-full">
             <div className="mx-auto max-w-6xl flex flex-col md:flex-row">
-              <h2 className="mr-8 w-full md:w-1/3 text-4xl font-extrabold leading-9">
+              <h2 className="mr-8 mb-5 w-full md:w-1/3 text-4xl font-extrabold leading-9">
                 Lets get in touch
               </h2>
               <dl className="w-full md:w-2/3">
                 <dt className="mb-4">
                   <h3 className="text-3xl font-semibold">
+                    <span className="inline-block mr-2">
+                      <FontAwesomeIcon icon={faPhone} className="w-5 h-5" />
+                    </span>
                     <a>(816) 508-7384</a>
                   </h3>
                 </dt>
                 <dd className="mb-16">
                   <p>
-                    Contact any business day 9-5
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin at nunc vitae leo lacinia pharetra non et augue. Donec sit amet augue tortor. Morbi semper sagittis facilisis
                   </p>
                 </dd>
                 <dt className="mb-4">
                   <h3 className="text-3xl font-semibold">
+                    <span className="inline-block mr-2">
+                      <FontAwesomeIcon icon={faEnvelope} className="w-5 h-5" />
+                    </span>
                     <a>gipartykc@gmail.com</a>
                   </h3>
                 </dt>
                 <dd className="mb-16">
                   <p>
-                    We typically respond in 1-2 business days.
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin at nunc vitae leo lacinia pharetra non et augue. Donec sit amet augue tortor. Morbi semper sagittis facilisis
                   </p>
                 </dd>
               </dl>
