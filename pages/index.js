@@ -66,7 +66,8 @@ export default function Home() {
 
 
       <div className="container mx-auto px-6 pt-8 sm:pt-16 pb-20">
-        <div className="flex flex-col sm:flex-row w-full mb-16 sm:mb-32">
+
+        {/* <div className="flex flex-col sm:flex-row w-full mb-16 sm:mb-32">
           <div className="relative sm:w-1/3">
             <span className="text-6xl font-black text-gray-200 absolute top-0 left-0">1</span>
             <div className="mt-8 ml-6 relative z-10 flex flex-col">
@@ -91,22 +92,22 @@ export default function Home() {
               <a href="#" className="text-blue-500 mt-2">See more</a>
             </div>
           </div>
-        </div>
+        </div> */}
+
         <div className="sm:px-12 flex flex-col sm:flex-row">
           <div className="sm:w-1/2 sm:pr-16">
-            <img src="http://placehold.it/552x300" className="rounded-lg" />
+            <img src="army.png" className=" mx-auto rounded-lg h-96" />
           </div>
           <div className="sm:w-1/2 pt-4">
             <h3 className="text-2xl text-gray-800 mb-4">
-              Lorem ipsum dolor sit amet.
-                </h3>
-            <p className="text-gray-600 leading-relaxed text-lg mb-4">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam
-              at ipsum eu nunc commodo posuere et sit amet ligula.
-                </p>
-            <button className="mx-auto bg-blue-600 hover:bg-blue-500 text-white rounded py-2 px-8 shadow-lg">
-              Action
-                </button>
+              Woman and Veteran Owned
+            </h3>
+            <p className="text-gray-600 leading-relaxed text-lg mb-4 sm:mb-12">
+              GI Party Cleaning and Services is ready to help you make your office and vacant rentals inspection ready!  GI Party is woman and veteran owned.  The combination of a combat veteran who has experienced GI parties firsthand and a seasoned multifamily housing pro KNOW what your employees and new move ins expect from a cleaner and can offer you the answer to your frustrations.  Call or message us to schedule a meeting to see how we can exceed your expectations of cleaning!
+            </p>
+            <div>
+              <a href="#contact" className=" font-semibold text-lg bg-blue-500 hover:bg-blue-400 text-white py-3 px-10 rounded-full">Contact Us</a>
+            </div>
           </div>
         </div>
       </div>
