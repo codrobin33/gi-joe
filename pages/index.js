@@ -65,7 +65,7 @@ export default function Home() {
 
 
 
-      <div className="container mx-auto px-6 pt-8 sm:pt-16 pb-20">
+      <div className="container mx-auto px-6 pt-16 md:pt-16 pb-20">
 
         {/* <div className="flex flex-col sm:flex-row w-full mb-16 sm:mb-32">
           <div className="relative sm:w-1/3">
@@ -95,14 +95,14 @@ export default function Home() {
         </div> */}
 
         <div className="sm:px-12 flex flex-col sm:flex-row">
-          <div className="sm:w-1/2 sm:pr-16">
+          <div className="sm:w-1/2 sm:pr-16  mb-4 sm:mb-12">
             <img src="army.png" className=" mx-auto rounded-lg h-96" />
           </div>
           <div className="sm:w-1/2 pt-4">
-            <h3 className="text-2xl text-gray-800 mb-4">
+            <h3 className="text-2xl text-gray-800 mb-4 sm:mb-12">
               Woman and Veteran Owned
             </h3>
-            <p className="text-gray-600 leading-relaxed text-lg mb-4 sm:mb-12">
+            <p className="text-gray-600 leading-relaxed text-lg mb-12">
               GI Party Cleaning and Services is ready to help you make your office and vacant rentals inspection ready!  GI Party is woman and veteran owned.  The combination of a combat veteran who has experienced GI parties firsthand and a seasoned multifamily housing pro KNOW what your employees and new move ins expect from a cleaner and can offer you the answer to your frustrations.  Call or message us to schedule a meeting to see how we can exceed your expectations of cleaning!
             </p>
             <div>
