@@ -198,7 +198,7 @@ export default function Home() {
       </div>
 
 
-      <div className="bg-white py-20">
+      {/* <div className="bg-white py-20">
         <div className="container mx-auto px-6 flex flex-col items-center">
           <h3 className="text-center font-bold text-4xl text-gray-800 mb-4">Lorem ipsum dolor sit amet</h3>
           <p className="text-gray-600 leading-relaxed text-lg mb-8 text-center">
@@ -208,6 +208,48 @@ export default function Home() {
           <button className="mx-auto bg-blue-600 hover:bg-blue-500 text-white rounded py-3 px-8 shadow-lg text-xl">
             Action
             </button>
+        </div>
+      </div> */}
+      <div className="bg-white py-20">
+        <div className="container mx-auto px-6">
+
+          <div className="md:flex gap-8">
+            <div className="md:w-1/2 text-center mb-8 md:mb-0">
+              <img className="w-48 h-48 rounded-full mx-auto -mb-24 object-cover" src="z.jpg" alt="Avatar Z" />
+              <div className="bg-white shadow-lg rounded-lg px-8 pt-32 pb-10 text-gray-400">
+                <h3 className="font-title text-gray-800 text-xl mb-3">
+                  Zarina Bryant Allen
+                </h3>
+                <p className="font-body">
+                  Co-Founder
+                </p>
+                <p className="font-body text-sm mb-4">
+                  A sweet and awesome description of Zarina
+                </p>
+                <a className="font-body text-blue-500 hover:text-gray-800" href="#">
+                  gipartykc@gmail.com
+                </a>
+              </div>
+            </div>
+            <div className="md:w-1/2 text-center">
+              <img className="w-48 h-48 rounded-full mx-auto -mb-24 object-cover" src="b.jpg" alt="Avatar Damien Marley" />
+              <div className="bg-white shadow-lg rounded-lg px-8 pt-32 pb-10 text-gray-400">
+                <h3 className="font-title text-gray-800 text-xl mb-3">
+                  Bill Allen
+                </h3>
+                <p className="font-body">
+                  Co-Founder
+                </p>
+                <p className="font-body text-sm mb-4">
+                  A sweet and awesome description of Bill
+                </p>
+                <a className="font-body text-blue-500 hover:text-gray-800" href="mailto:dino@siete.pm">
+                  gipartykc@gmail.com
+                </a>
+              </div>
+            </div>
+          </div>
+
         </div>
       </div>
 
