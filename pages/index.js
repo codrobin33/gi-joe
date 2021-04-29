@@ -60,7 +60,7 @@ export default function Home() {
             <a href="#about" className="font-semibold text-lg bg-blue-500 hover:bg-blue-400 text-white py-3 px-10 rounded-full">Learn more</a>
           </div>
           <div className="sm:w-3/5">
-            <img src="/cleaning.svg" alt="Cleaning Logo" className="w-full" width="870" height="712" />
+            <img src="cleaning.svg" alt="Cleaning Logo" className="w-full" width="870" height="712" />
 
           </div>
         </div>
@@ -118,7 +118,7 @@ export default function Home() {
         <section className="container mx-auto py-10 md:py-20 antialiased ">
           <section className="grid lg:grid-cols-2 2xl:grid-cols-4 grid-cols-1 gap-8">
             <article className="bg-white mx-auto max-w-sm pb-8 bg-cover bg-center shadow-2xl rounded-xl">
-              <img className="mx-auto mb-20 mt-10 w-40" src="/spray.png" alt="" />
+              <img className="mx-auto mb-20 mt-10 w-40" src="spray.png" alt="" />
               <h2 className="text-center text-3xl mt-8 font-bold min-h-18 px-12">
                 Clean
               </h2>
@@ -128,7 +128,7 @@ export default function Home() {
             </article>
 
             <article className="bg-white mx-auto max-w-sm pb-8 bg-cover bg-center shadow-2xl rounded-xl">
-              <img className="mx-auto mb-20 mt-10 w-40" src="/safe.png" alt="" />
+              <img className="mx-auto mb-20 mt-10 w-40" src="safe.png" alt="" />
               <h2 className="text-center text-3xl mt-8 font-bold min-h-18 px-12">
                 Safe
               </h2>
@@ -138,7 +138,7 @@ export default function Home() {
             </article>
 
             <article className="bg-white mx-auto max-w-sm pb-8 bg-cover bg-center shadow-2xl rounded-xl">
-              <img className="mx-auto mb-20 mt-10 w-40" src="/time.png" alt="" />
+              <img className="mx-auto mb-20 mt-10 w-40" src="time.png" alt="" />
               <h2 className="text-center text-3xl mt-8 font-bold min-h-18 px-12">
                 Quick
               </h2>
@@ -148,7 +148,7 @@ export default function Home() {
             </article>
 
             <article className="bg-white mx-auto max-w-sm pb-8 bg-cover bg-center shadow-2xl rounded-xl">
-              <img className="mx-auto mb-20 mt-10 w-40" src="/shiny.png" alt="" />
+              <img className="mx-auto mb-20 mt-10 w-40" src="shiny.png" alt="" />
               <h2 className="text-center text-3xl mt-8 font-bold min-h-18 px-12">
                 Guaranteed
               </h2>
