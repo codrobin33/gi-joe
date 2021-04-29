@@ -1,4 +1,4 @@
-console.log('NODE ENV: ', process.env.NODE_ENV, typeof process.env.NODE_ENV, process.env.NODE_ENV == 'production')
+console.log('NODE ENV: ', process.env.NODE_ENV, process.env.NODE_ENV === 'production')
 
 
 const isProd = process.env.NODE_ENV === 'production'
