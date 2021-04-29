@@ -183,8 +183,8 @@ export default function Home() {
                 </dt>
                 <dd className="mb-16">
                   <p>
-                    We don’t. Valohai isn’t a data science platform; it&#x27;s a Machine Learning Management Platform that handles the whole ML pipeline from feature extraction, to training of your model and to deploying it into production in a reproducible manner. Data science platforms offer hosted notebooks and AutoML solutions.
-                </p>
+                    We typically respond in 1-2 business days.
+                  </p>
                 </dd>
               </dl>
             </div>
