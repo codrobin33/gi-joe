@@ -1,10 +1,9 @@
-console.log('test', process.env.NODE_ENV)
+console.log('NODE ENV: ', process.env.NODE_ENV)
 
-var exports = {};
-if (process.env.NODE_ENV != 'development') {
-    exports = {
-        assetPrefix: 'gi-joe/',
-    }
-}
 
-module.exports = exports;
+const isProd = process.env.NODE_ENV === 'production'
+
+module.exports = {
+    // Use the CDN in production and localhost for development.
+    assetPrefix: isProd ? 'gi-joe/' : '',
+};
